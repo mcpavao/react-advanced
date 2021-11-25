@@ -19,9 +19,6 @@ class App extends React.Component {
     const postsJson = await posts.json();
 
     this.setState({ posts: postsJson });
-
-
-    fetch('https://jsonplaceholder.typicode.com/photos');
   }
 
   render() {
