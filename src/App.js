@@ -31,6 +31,7 @@ class App extends React.Component {
 
     return (
       <section className="container">
+        <h1>React Advanced </h1>
         <div className="posts">
           {posts.map(post => (
             <div className="post">
