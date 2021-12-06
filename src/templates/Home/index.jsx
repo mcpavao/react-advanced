@@ -52,10 +52,13 @@ export class Home extends Component {
       <section className="container">
         <h1>React Advanced </h1>
         <Posts posts={posts} />
+
+        <div className="button-container">
         <Button 
           text="Load more posts"
           onClick={this.loadMorePosts}
         />
+        </div>
       </section>
     );
   }

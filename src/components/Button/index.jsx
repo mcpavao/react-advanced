@@ -1,3 +1,5 @@
+import './styles.css';
+
 import { Component } from "react";
 
 
@@ -6,7 +8,7 @@ export class Button extends Component {
         const { text, onClick } = this.props;
 
         return (
-            <button onClick={onClick}>
+            <button classsName='button' onClick={onClick}>
                 {text}
             </button>
         );
